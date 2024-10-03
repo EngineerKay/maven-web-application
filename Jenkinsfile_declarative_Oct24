@@ -10,7 +10,7 @@ pipeline{
             git 'https://github.com/EngineerKay/maven-web-application'
         }
     }
-     stage('2.build'){
+     stage('2. mavenbuild'){
       steps{
             sh  "echo creating deployable packages"
             sh 'mvn clean package'
