@@ -1,3 +1,3 @@
-FROM tomcat:8.0.20-jre8
-COPY target/*.war /usr/local/tomcat/webapps/maven-web-app.war
-#testing GitHub hook trigger for GITScm polling
+FROM tomcat:9.0.91-jdk11-corretto
+# author is Simon Legah of Landmark Technologies
+COPY target/*.war /usr/local/tomcat/webapps/webapp.war
